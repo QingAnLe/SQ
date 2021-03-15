@@ -2,7 +2,7 @@ name: 书旗小说
 on:
   workflow_dispatch:
   schedule:
-     - cron: '*/60 0-20 * * *'
+     - cron: '*/30 0-11/1 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest       
